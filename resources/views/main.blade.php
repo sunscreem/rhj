@@ -34,20 +34,21 @@
         <meta name="theme-color" content="#ffffff">
 
         <!-- Css Global Compulsory -->
-        <link rel="stylesheet" href="{{ asset('/plugins/bootstrap/css/bootstrap.min.css') }}"> 
+        <link rel="stylesheet" href="{{ asset('/plugins/bootstrap/css/bootstrap.min.css') }}">
         <!-- Css Implementing Plugins -->
-        <link rel="stylesheet" href="{{ asset('/plugins/font-awesome/css/font-awesome.min.css') }}">  
-        <link rel="stylesheet" href="{{ asset('/css/flexslider.css') }}"> 
-        <!-- Css Theme -->           
+        <link rel="stylesheet" href="{{ asset('/plugins/font-awesome/css/font-awesome.min.css') }}">
+        <link rel="stylesheet" href="{{ asset('/css/flexslider.css') }}">
+        <!-- Css Theme -->
         <link rel="stylesheet" href="{{ asset('/css/style.css') }}">
         <link rel="stylesheet" href="{{ asset('/css/mystyles.css') }}">
         <!-- Web Fonts -->
         <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600&subset;=latin,cyrillic' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="{{ asset('/fonts/montserrat/style.css') }}">  
+        <link rel="stylesheet" href="{{ asset('/fonts/montserrat/style.css') }}">
 
         <link rel="stylesheet" href="{{ asset('/css/magnific-popup.css') }}">
 
-        
+        {!! ReCaptcha::htmlScriptTagJsApi() !!}
+
     </head>
     <body>
 
@@ -74,13 +75,13 @@
                     <div class="col-md-8">
                         <!-- Collect the nav links, forms, and other content for toggling -->
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                            <ul class="nav navbar-nav navbar-right">                        
+                            <ul class="nav navbar-nav navbar-right">
                                 <li class="page-scroll active"><a href="#" class="hidden-sm">Home</a></li>
                                 <li class="page-scroll"><a href="#we-we-are">Who We Are</a></li>
                                 <li class="page-scroll"><a href="#services">What We Do</a></li>
                                 <li class="page-scroll"><a href="#testimonials">Testimonials</a></li>
                                 <li class="page-scroll"><a href="#gallery">Gallery</a></li>
-                               
+
                                 <li class="page-scroll"><a href="#contact">Contact</a></li>
                             </ul>
                         </div>
@@ -89,7 +90,7 @@
             </div><!-- /container -->
         </nav>
         <!-- End Header -->
-        
+
         @include('partials.hero')
         @include('partials.who_we_are ')
         @include('partials.what_we_do')
@@ -98,60 +99,60 @@
         @include('partials.gallery')
         @include('partials.contact_us')
 
- 
 
 
 
-        <!-- End Site Wrapper -->  
+
+        <!-- End Site Wrapper -->
     <!-- From Blog -->
-         
+
             <!-- End From blog -->
-     
+
 
         <!-- Site Wrapper -->
-        
+
         <!-- End Site Wrapper -->
 
 
       <!-- Section General Title -->
-      
+
 
 
 
 
 
         <div id="footer">
-            <div class="container">   
-                <div class="row"> 
-                    <!-- Copyright -->                                    
+            <div class="container">
+                <div class="row">
+                    <!-- Copyright -->
                     <div class="col-md-4 text-left">
                         <p>&copy; <?php echo date('Y'); ?> <a href="/" >RHJ Contracts</a> / <a href="https://www.sellonlinedirect.com" target="_blank">Sell Online Direct</a></p>
                         <a href="https://www.facebook.com/rhj.contracts.1?fref=ts" target="_blank">
                             Facebook: <i class="fa fa-facebook fa-lg"></i>
                         </a>
                     </div>
-            
+
                     <div class="col-md-6 text-center">
                     </div>
-                    
+
                     <!-- Up Button -->
                     <div class="col-xs-3 col-md-2 text-right margin-top-10">
                             <p><img src="qms.jpg" class="img-responsive" style="border: 3px solid #f4f4f3;"></p>
-                         
-                    </div>                                                                                                                                                 
+
+                    </div>
                 </div><!-- /row -->
             </div><!-- /container -->
         </div>
         <!-- End Footer -->
 
-    
+
         <script src="{{ asset('plugins/jquery-1.11.1.min.js') }} "></script>
         <script src="{{ asset('plugins/bootstrap/js/bootstrap.min.js') }} "></script>
 
         <!-- Js Implementing Plugins  -->
         <script src="{{ asset('plugins/moderniz.js') }} "></script>
         <script defer src="{{ asset('plugins/jquery.flexslider-min.js') }} "></script>
-        
+
         <script src="{{ asset('/plugins/masonry.pkgd.min.js') }}"></script>
         <script src="{{ asset('/plugins/imagesloaded.pkgd.min.js') }}"></script>
         <script src="{{ asset('/plugins/jquery.magnific-popup.min.js') }}"></script>
