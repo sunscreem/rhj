@@ -72,13 +72,13 @@
                     <form method="POST" action="{{ route('homepage',['#cform']) }}" accept-charset="UTF-8">
                      {!! csrf_field() !!}
                      @foreach($errors->all() as $error)
-                        @if ($error != 'The g-recaptcha-response field is required.')
+                        @if ($error != 'validation.recaptcha')
                             <div class="alert alert-danger alert-dismissible" role="alert">
                             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                             <span aria-hidden="true">&times;</span></button>
                             <strong>Oops!</strong> {{ $error }}</div>
                         @endif
-                        @if ($error == 'The g-recaptcha-response field is required.')
+                        @if ($error == 'validation.recaptcha')
                             <div class="alert alert-danger alert-dismissible" role="alert">
                             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                             <span aria-hidden="true">&times;</span></button>
