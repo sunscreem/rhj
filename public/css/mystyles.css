@@ -1,0 +1,221 @@
+.margin-top-5 {
+  margin-top: 5px; }
+
+.margin-bottom-5 {
+  margin-bottom: 5px; }
+
+.margin-top-10 {
+  margin-top: 10px; }
+
+.margin-bottom-10 {
+  margin-bottom: 10px; }
+
+.margin-top-15 {
+  margin-top: 15px; }
+
+.margin-bottom-15 {
+  margin-bottom: 15px; }
+
+.margin-top-20 {
+  margin-top: 20px; }
+
+.margin-bottom-20 {
+  margin-bottom: 20px; }
+
+.margin-top-30 {
+  margin-top: 30px; }
+
+.margin-bottom-30 {
+  margin-bottom: 30px; }
+
+.margin-top-40 {
+  margin-top: 40px; }
+
+.margin-bottom-40 {
+  margin-bottom: 40px; }
+
+.margin-top-50 {
+  margin-top: 50px; }
+
+.margin-bottom-50 {
+  margin-bottom: 50px; }
+
+.margin-top-60 {
+  margin-top: 60px; }
+
+.margin-bottom-60 {
+  margin-bottom: 60px; }
+
+.margin-top-70 {
+  margin-top: 70px; }
+
+.margin-bottom-70 {
+  margin-bottom: 70px; }
+
+.margin-top-80 {
+  margin-top: 80px; }
+
+.margin-bottom-80 {
+  margin-bottom: 80px; }
+
+.margin-top-90 {
+  margin-top: 90px; }
+
+.margin-bottom-90 {
+  margin-bottom: 90px; }
+
+.margin-top-100 {
+  margin-top: 100px; }
+
+.margin-bottom-100 {
+  margin-bottom: 100px; }
+
+a {
+  color: #333; }
+
+#header-carousel {
+  width: 100%;
+  height: 500px;
+  margin: 0 auto;
+  background-color: rgba(8, 8, 8, 0.4); }
+  #header-carousel .caption {
+    text-align: center;
+    position: absolute;
+    z-index: 2;
+    width: 100%; }
+    #header-carousel .caption h1 {
+      font-size: 60px;
+      width: 50%;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #FFF;
+      margin: 55px auto;
+      text-shadow: 0px 0px 19px rgba(8, 8, 8, 0.4); }
+      #header-carousel .caption h1 small {
+        color: #FFF; }
+  #header-carousel .ctoa {
+    text-align: center;
+    width: 100%;
+    text-shadow: 0px 0px 19px rgba(8, 8, 8, 0.4); }
+  #header-carousel .flexsider {
+    border: 0;
+    z-index: 1;
+    margin: 0; }
+
+.slides li:nth-of-type(1) {
+  background-image: url("/img/main_image_1.jpg"); }
+
+.slides li:nth-of-type(2) {
+  background-image: url("/img/main_image_2.jpg"); }
+
+.slides li:nth-of-type(3) {
+  background-image: url("/img/main_image_3.jpg"); }
+
+.slides li {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 500px; }
+
+.avatar {
+  margin: 0 5px 5px 0; }
+
+#services .caption {
+  min-height: 145px; }
+
+#cap {
+  text-align: center; }
+
+.g-recaptcha {
+  display: inline-block; }
+
+a.underline {
+  text-decoration: underline; }
+
+#footer a {
+  color: #b6b6b6; }
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus,
+.contact-adress i,
+a:hover,
+.project-item:hover .project-title,
+.project-inner-caption i,
+.white-btn:hover,
+.btn-submit {
+  color: #3c86c6; }
+
+.title-devider {
+  border-bottom: 2px solid #3c86c6; }
+
+.white-btn:hover,
+.btn-submit {
+  border-color: #3c86c6; }
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #3c86c6; }
+
+.grid:after {
+  content: '';
+  display: block;
+  clear: both; }
+
+.grid-sizer,
+.grid-item {
+  width: 33.333%; }
+
+.grid-item {
+  float: left; }
+
+.grid-item img {
+  display: block;
+  max-width: 100%;
+  border: 2px solid white; }
+
+@media only screen and (min-width: 1200px) {
+  .grid-item img {
+    margin-bottom: 18px; } }
+
+@media only screen and (min-width: 980px) {
+  #header-carousel .caption h1 {
+    font-size: 50px;
+    margin: 65px auto;
+    width: 70%; } }
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+  #header-carousel {
+    height: 400px; }
+    #header-carousel .caption h1 {
+      font-size: 45px;
+      margin: 48px auto;
+      width: 62%; }
+  .slides li {
+    height: 400px; }
+  .blog-post .caption h3 {
+    line-height: 28px;
+    min-height: 60px; }
+  #services .caption {
+    min-height: 238px; } }
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  #header-carousel {
+    height: 400px; }
+    #header-carousel .caption h1 {
+      font-size: 37px;
+      margin: 40px auto;
+      width: 85%; }
+  .slides li {
+    height: 400px; }
+  .img-responsive {
+    margin-left: auto;
+    margin-right: auto; }
+  .navbar-brand img {
+    width: 170px; } }
+
+/*# sourceMappingURL=mystyles.css.map */
