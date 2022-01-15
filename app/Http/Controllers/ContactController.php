@@ -15,7 +15,6 @@ class ContactController extends Controller
     public function sendEmail(ContactFormRequest $request)
     {
 
-        dd('hello');
             Mail::send(
                 'emails.contact',
                 array(

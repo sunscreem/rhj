@@ -88,18 +88,18 @@
                         <fieldset>
                             <div class="col-md-6">
                                 <!-- Name -->
-                                <input name="name" type="text" id="name" size="30" value="" placeholder="Name"/>
+                                <input name="name" type="text" id="name" size="30" value="{{ old('name') }}" placeholder="Name"/>
                                 <br />
                                 <!-- Email -->
-                                <input name="email" type="text" id="email" size="30" value="" placeholder="Email (Optional)"/>
+                                <input name="email" type="text" id="email" size="30" value="{{ old('email') }}" placeholder="Email (Optional)"/>
                                 <br />
                                 <!-- Phone -->
-                                <input name="phone" type="text" id="phone" size="30" value="" placeholder="Phone"/>
+                                <input name="phone" type="text" id="phone" size="30" value="{{ old('phone') }}" placeholder="Phone"/>
 
                             </div>
                             <!-- Message -->
                             <div class="col-md-6">
-                                <textarea name="comment" cols="40" rows="5" id="comments" placeholder="Message"></textarea>
+                                <textarea name="comment" cols="40" rows="5" id="comments" placeholder="Message">{{ old('comment') }}</textarea>
                             </div>
                             <!-- Submit Button -->
                             <div class="col-md-12 text-center margin-bottom-20">
