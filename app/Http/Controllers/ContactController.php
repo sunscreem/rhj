@@ -26,7 +26,7 @@ class ContactController extends Controller
                 function ($message) {
 
                     $message->from('website@rhjcontracts.co.uk');
-                    $message->to(['rob.cooper@sellonlinedirect.com','rhjcontracts@outlook.com'], 'Admin')->subject('Website Contact Form');
+                    $message->to(['rhjcontracts@outlook.com'], 'Admin')->subject('Website Contact Form');
                 }
             );
 
